@@ -1,0 +1,122 @@
+/* todos fundo da aplicação questionários */
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(355deg, #ddb095 0, #d3a793 10%, #c59b8e 20%, #b18e88 30%, #9a807e 40%, #7e7070 50%, #636161 60%, #4c5452 70%, #3a4945 80%, #2c4039 90%, #23392e 100%);
+}
+
+/* todos butttons de voltar dos questionários */
+.back-pages-questioes {
+    width: 35vh;
+    height: 5vh;
+    color: #dfc4c6;
+    font-size: 3vh;
+    margin: 2vh;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(81, 94, 94);
+    cursor: pointer;
+}
+.back-pages-questioes:hover {
+    opacity: .8;
+}
+
+.back-pages-questioes:active {
+    opacity: .5;
+}
+
+.h1-welcome {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-size: 6vh;
+}
+
+.container-div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 20px;
+    height: auto;
+    margin: 0 auto;
+    background-image: radial-gradient(circle at 51.07% 49.91%, #bd81ee 0, #9262d9 25%, #5d41c0 50%, #0024a8 75%, #001394 100%);}
+
+.div-das-perguntas {
+    display: flex;
+    flex-direction: column;
+    font-size: 4vh;
+    width: 90%;
+}
+
+p {
+    color: #fff;
+    margin: 1vh;
+}
+
+ol {
+    opacity: 1;
+}
+
+li {
+    margin-bottom: 1vh;
+    color: aliceblue;
+    background-color: rgb(17, 17, 18);
+    list-style: none;
+    width: 100%;
+    height: 5vh;
+    padding: 1vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+li:hover {
+    opacity: .8;
+}
+
+li:active {
+    opacity: .5;
+}
+
+.div-buttons-finish-page {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vh;
+    margin-bottom: 3vh;
+}
+
+.button-start-quiz {
+    width: 30%;
+    height: 5vh;
+    font-size: 3vh;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button-start-quiz:hover {
+    opacity: .8;
+}
+
+.button-start-quiz:active {
+    opacity: .5;
+}
+
+.Next-question {
+    width: 30%;
+    height: 5vh;
+    font-size: 3vh;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.Next-question:hover {
+    opacity: .8;
+}
+
+.Next-question:active {
+    opacity: .5;
+}

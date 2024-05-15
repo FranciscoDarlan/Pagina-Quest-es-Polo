@@ -41,7 +41,7 @@ img {
     align-items: center;
     gap: 2vh;
     color: aliceblue;
-    font-size: 40px;
+    font-size: 4vh;
     box-shadow: rgba(248, 243, 243, 0.35) 0px 5px 15px;
     padding: 30px 50px;
     border-radius: 10px;
@@ -100,7 +100,7 @@ img {
         align-items: center;
         gap: 2vh;
         color: aliceblue;
-        font-size: 3vh;
+        font-size: 4vh;
         box-shadow: rgba(248, 243, 243, 0.35) 0px 5px 15px;
         padding: 30px 50px;
         border-radius: 10px;
