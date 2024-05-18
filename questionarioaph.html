@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +9,13 @@
     <link rel="stylesheet" href="./estilos globais/styles-globais.css">
 
 </head>
+
 <body>
     <button onclick="voltarPagesQuestoes()" class="back-pages-questioes">Voltar Questionários</button>
     <h1 class="h1-welcome">Bem Vindo Ao Questionário de Primeiros Socorros</h1>
 
     <div class="container-div1">
-        <div class="div-das-perguntas">
+        <div class="div-das-perguntas apaga">
             <p>Pergunta Aqui?</p>
             <ol>
                 <li>Resposta 1</li>
@@ -22,15 +24,17 @@
                 <li>Resposta 4</li>
                 <li>Resposta 5</li>
             </ol>
-            <div class="div-buttons-finish-page">
-                <button class="button-start-quiz">comecar Quiz</button>
-                <button class="Next-question">Confirmar Resposta</button>
-            </div>
-
         </div>
+        <div class="div-buttons-finish-page">
+            <button class="button-start-quiz" onclick="iniciaQuestionario()">comecar Quiz</button>
+            <button class="Next-question apaga">Confirmar Resposta</button>
+        </div>
+
+
     </div>
 
     <script src="script.js"></script>
-    
+
 </body>
+
 </html>
