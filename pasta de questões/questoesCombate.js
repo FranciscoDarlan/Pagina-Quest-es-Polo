@@ -8,7 +8,7 @@ export default [
         ],
     },
     {
-        question: "quanto é 5 x 2?",
+        question: "quanto é 5 + 2?",
         answes: [
             { option: "9", correct: false },
             { option: "10", correct: true }, 
@@ -16,7 +16,7 @@ export default [
         ],
     },
     {
-        question: "quanto é 10 x 8?",
+        question: "quanto é 10 + 8?",
         answes: [
             { option: "800", correct: false },
             { option: "90", correct: false }, 
@@ -24,7 +24,7 @@ export default [
         ],
     },
     {
-        question: "quanto é 7 x 7?",
+        question: "quanto é 7 + 7?",
         answes: [
             { option: "70", correct: false },
             { option: "56", correct: false }, 
