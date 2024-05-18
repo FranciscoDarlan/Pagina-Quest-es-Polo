@@ -4,6 +4,11 @@ let divPrimeiroSocorros = document.getElementById('div-materia-primeiros-socorro
 
 let backPagesQuestions = document.querySelector('.back-pages-questioes');
 
+let buttonStartQuiz = document.querySelector('.button-start-quiz');
+
+let divPerguntas = document.querySelector('.div-das-perguntas');
+let buttonNextQuestion = document.querySelector('.Next-question');
+
 
 function questoesCombateAIncendio() {
     window.location.href = "questionarioci.html";
@@ -19,4 +24,11 @@ function questoesSalvamento() {
 
 function questoesPrimeirosSocorros() {
     window.location.href = "questionarioaph.html";
+}
+
+
+function iniciaQuestionario() {
+    divPerguntas.classList.remove('apaga');
+    buttonNextQuestion.classList.remove('apaga');
+    buttonStartQuiz.classList.add('apaga');
 }
