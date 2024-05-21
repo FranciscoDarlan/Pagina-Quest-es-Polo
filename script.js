@@ -26,7 +26,6 @@ function questoesPrimeirosSocorros() {
     window.location.href = "questionarioaph.html";
 }
 
-
 function iniciaQuestionario() {
     divPerguntas.classList.remove('apaga');
     buttonNextQuestion.classList.remove('apaga');
