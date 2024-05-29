@@ -1,4 +1,6 @@
-export default [
+module.exports = questoesAph;
+
+const questoesAph = [
     {
         question: "quanto é 1 / 2?",
         answes: [
@@ -21,7 +23,7 @@ export default [
         ],
     },
     {
-        question: "quanto é 10 / 8?",
+        question: "quanto é 100 / 8?",
         answes: [
             { option: "800", correct: false },
             { option: "90", correct: false }, 
@@ -35,7 +37,7 @@ export default [
         answes: [
             { option: "70", correct: false },
             { option: "56", correct: false }, 
-            { option: "49", correct: true },
+            { option: "1", correct: true },
             { option: "4", correct: false },
             { option: "4", correct: false },
         ], 
