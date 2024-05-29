@@ -1,6 +1,4 @@
-module.exports = questoesAph;
-
-const questoesAph = [
+module.exports = [
     {
         question: "quanto é 1 / 2?",
         answes: [

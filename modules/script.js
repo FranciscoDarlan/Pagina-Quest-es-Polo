@@ -1,14 +1,11 @@
 let divCombate = document.getElementById('div-materia-combate');
 let divSalvamento = document.getElementById('div-materia-salvamento');
 let divPrimeiroSocorros = document.getElementById('div-materia-primeiros-socorros');
-
 let backPagesQuestions = document.querySelector('.back-pages-questioes');
-
 let buttonStartQuiz = document.querySelector('.button-start-quiz');
-
 let divPerguntas = document.querySelector('.div-das-perguntas');
 let buttonNextQuestion = document.querySelector('.Next-question');
-
+let buttonVoltaPaginaPrincipal = document.querySelector('.callback-home');
 
 function questoesCombateAIncendio() {
     window.location.href = "questionarioci.html";
@@ -30,4 +27,8 @@ function iniciaQuestionario() {
     divPerguntas.classList.remove('apaga');
     buttonNextQuestion.classList.remove('apaga');
     buttonStartQuiz.classList.add('apaga');
+}
+
+function voltaPaginaInicial() {
+    alert('conectar com html pagina primcipal');
 }
