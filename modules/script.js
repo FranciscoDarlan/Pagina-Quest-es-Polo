@@ -52,10 +52,10 @@ function displayNextQuestion() {
     }
 
     textoquestion.textContent = questions[perguntaAtual].question;
-    questions[perguntaAtual].answes.forEach(event =>{
+    questions[perguntaAtual].answers.forEach(event =>{
         const newRespostas = document.createElement('li');
         newRespostas.classList.add("li");
-        newRespostas.textContent = event.option
+        newRespostas.textContent = event.option;
 
         if (event.correct) {
             newRespostas.dataset.correct = event.correct;
