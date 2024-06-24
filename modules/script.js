@@ -6,6 +6,16 @@ let buttonStartQuiz = document.querySelector('.button-start-quiz');
 let divPerguntas = document.querySelector('.div-das-perguntas');
 let buttonNextQuestion = document.querySelector('.Next-question');
 let buttonVoltaPaginaPrincipal = document.querySelector('.callback-home');
+// __________________________________________ YOUTUBE
+//caixa de resposta
+const caixaPerguntas = document.querySelector('ol');
+
+//vou pegar o texto da questão 
+const textoquestion = document.querySelector('.p-question');
+
+function voltaPaginaInicial() {
+    alert('conectar com html pagina primcipal');
+}
 
 function questoesCombateAIncendio() {
     window.location.href = "questionarioci.html";
@@ -23,15 +33,38 @@ function questoesPrimeirosSocorros() {
     window.location.href = "questionarioaph.html";
 }
 
+
+// vou criar uma variavel para saber em qual questão estamos ..
+let perguntaAtual = 0;
+
 function iniciaQuestionario() {
     divPerguntas.classList.remove('apaga');
     buttonNextQuestion.classList.remove('apaga');
     buttonStartQuiz.classList.add('apaga');
+
+    displayNextQuestion()
 }
 
-function voltaPaginaInicial() {
-    alert('conectar com html pagina primcipal');
+function displayNextQuestion() {
+    //estrutura de repetição .. enquanto na variavel que criei tiver filho vai ficar removendo ..
+    while (caixaPerguntas.firstChild) {
+        caixaPerguntas.removeChild(caixaPerguntas.firstChild);
+    }
+
+    textoquestion.textContent = questions[perguntaAtual].question;
+    questions[perguntaAtual].answes.forEach(event =>{
+        const newRespostas = document.createElement('li');
+        newRespostas.classList.add("li");
+        newRespostas.textContent = event.option
+
+        if (event.correct) {
+            newRespostas.dataset.correct = event.correct;
+        }
+
+        caixaPerguntas.appendChild(newRespostas);
+    })
 }
+
 
 
 const questions = [
