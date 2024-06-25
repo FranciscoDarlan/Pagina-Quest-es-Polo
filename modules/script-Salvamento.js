@@ -137,101 +137,101 @@ const questionsAph = [
     {
         question: "Qual NR fala sobre espaço confinado?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "NR 13", correct: false },
+            { option: "NR 23", correct: false },
+            { option: "NR 33", correct: true },
+            { option: "NR 43", correct: false },
+            { option: "NR 53", correct: false }
         ],
     },
     {
-        question: "preparos que um socorrista precisar ter?",
+        question: "Quando flaamos de salvameno terrestre, destacamos 3 características principais que esperamos num socorrista, quais são?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "Preparo técnico, curricular e psicológico.", correct: false },
+            { option: "Preparo físico, muscular e psicológico.", correct: false },
+            { option: "Preparo físico, curricular e psicológico.", correct: false },
+            { option: "Preparo físico, técnico e psicológico.", correct: true },
+            { option: "Preparo técnico, muscular e psicológico.", correct: false }
         ]
     },
     {
         question: "Documento importante que precisar ser preenchido antes de entrar no espaço confinado?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "EPT", correct: false },
+            { option: "TEP", correct: false },
+            { option: "CEP", correct: false },
+            { option: "PTE", correct: false },
+            { option: "PET", correct: true }
         ],
     },
     {
-        question: "quais são as caracteristicas de um plano de emergência?",
+        question: "São caracteristicas esperadas de um plano de emergência?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "Simplicidade, Flexibilidade, Dificuldade, Adequação e Precisão.", correct: false },
+            { option: "Simplicidade, Flexibilidade, Dinamismo, Adequação e Precisão.", correct: true },
+            { option: "Simplicidade, Flexibilidade, Dinamismo, Desdobramaento e Precisão.", correct: false },
+            { option: "Simplicidade, Projetado, Dinamismo, Adequação e Precisão.", correct: false },
+            { option: "Simplicidade, Flexibilidade, Dinamismo, Adequação e Conclusão.", correct: false }
         ]
     },
     {
         question: "tipo de heliponto?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "São quatro, Militar, Privado, Hospitalar e de Emergência.", correct: false },
+            { option: "São cinco, Militar, Turítico, Privado, Hospitalar e de Emergência.", correct: false },
+            { option: "São quatro, Militar, Público, Privado e de Emergência.", correct: false },
+            { option: "São cinco, Militar, Público, Privado, Hospitalar e de Emergência.", correct: true },
+            { option: "São cinco, Militar, Turítico, Privado, Hospitalar e de Emergência.", correct: false }
         ],
     },
     {
         question: "quantas classes de produtos prerigos existe?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "10", correct: false }
+            { option: "7", correct: false },
+            { option: "8", correct: false },
+            { option: "9", correct: true },
+            { option: "10", correct: false },
+            { option: "11", correct: false }
         ]
     },
     {
         question: "Primeira atitude do socorrista em uma situação de emergência?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "Correr", correct: false },
+            { option: "Gritar", correct: false },
+            { option: "Colocar a mão na Vítima", correct: false },
+            { option: "Avaliar a Cena", correct: true },
+            { option: "Não fazer nada", correct: false }
         ],
     },
     {
-        question: "qual nr fala sobre altura?",
+        question: "O que significa a sigla EPR?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "Equipagem de Proteção Respiratória", correct: false },
+            { option: "Equipamento de Pressão Respiratória", correct: false },
+            { option: "Equipagem de Prática Respiração", correct: false },
+            { option: "Equipamento de Proteção Respiratória", correct: true },
+            { option: "Equipagem Protetora Rápida", correct: false }
         ]
     },
     {
-        question: "motivos do elevador parar?",
+        question: "Quais são as origens dos produtos perigosos?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "Química, tóxica e radiológica.", correct: false },
+            { option: "Química, inflamável e radiológica.", correct: false },
+            { option: "Química, biológica e industrial.", correct: false },
+            { option: "Química, biológica e radiológica.", correct: true },
+            { option: "Térmica, tóxica e radiológica.", correct: false }
         ],
     },
     {
-        question: "atividade do espaço confinado?",
+        question: "São razões para elaboração de um plano de emergência, exceto:",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "Evita, confusões, erros e atropelos e a duplicação de atuações.", correct: false },
+            { option: "Os prováveis cenários de acidentes para os riscos identificados.", correct: true },
+            { option: "Prevê e organiza antecipadamente o plano de abandono e contingência.", correct: false },
+            { option: "Permite otinas e procedimentos os quais poderão ser testados através de exercícios de simulação", correct: false },
+            { option: "Nenhuma das alternativas.", correct: false }
         ]
     },
 ];
