@@ -7,7 +7,8 @@
 .container-main {
     width: 100vw;
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 3%;
+    background-image: radial-gradient(circle at 50.35% 48.7%, #4e5542 0, #454d3e 16.67%, #3d4339 33.33%, #343933 50%, #2d2f2d 66.67%, #272526 83.33%, #221d20 100%);
 }
 
 .callback-home {
@@ -36,10 +37,10 @@
 
 h1 {
     color: rgb(240, 243, 247);
-    font-size: 6vh;
+    font-size: 300%;
     display: flex;
     justify-content: center;
-    margin-top: 10vh;
+    margin: 5% 0;
 }
 
 .div-questions {
@@ -55,7 +56,7 @@ h1 {
 
 img {
     border-radius: 15px;
-    width: 17vw;
+    width: 100%;
     height: 20vh;
 }
 
@@ -81,29 +82,21 @@ img {
     opacity: 0.8;
 }
 
-.correto{
-    background-image: none;
-    background-color: #049b48;
-}
-
-.incorreto{
-    background-image: none;
-    background-color: #a10101;
-}
-
 @media screen and (max-width: 998px) {
     .container-main {
         height: 100%;
-        width: 100vw;
-        padding-top: 100px;
+        width: 100%;
+        padding-top: 3%;
+        background-image: radial-gradient(circle at 50.35% 48.7%, #4e5542 0, #454d3e 16.67%, #3d4339 33.33%, #343933 50%, #2d2f2d 66.67%, #272526 83.33%, #221d20 100%);
     }
 
 
     .callback-home {
         display: flex;
+        justify-content: start;
         font-size: 2.5vh;
         font-weight: 600;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         width: auto;
         padding: 1vh;
         height: 5vh;
@@ -131,14 +124,14 @@ img {
     }
 
     .div-questions {
-        width: 50%;
+        width: 100%;
         height: 20%;
         display: flex;
         flex-direction: column;
-        margin: 0 auto;
+        justify-content: center;
+        /* margin: 0 auto; */
         justify-content: center;
         align-items: center;
-        justify-content: center;
         text-align: center;
         gap: 50px;
         padding-bottom: 5vh;
@@ -146,7 +139,7 @@ img {
 
     img {
         border-radius: 15px;
-        width: 40vw;
+        width: 90%;
         height: 20vh;
     }
 
@@ -158,7 +151,7 @@ img {
         color: aliceblue;
         font-size: 4vh;
         box-shadow: rgba(248, 243, 243, 0.35) 0px 5px 15px;
-        padding: 30px 50px;
+        padding: 30px 5%;
         border-radius: 10px;
     }
 
@@ -170,13 +163,5 @@ img {
 
     .container-materia-1:active {
         opacity: 0.8;
-    }
-
-    .correto{
-        background-color: #049b48;
-    }
-    
-    .incorreto{
-        background-color: #a10101;
     }
 }
