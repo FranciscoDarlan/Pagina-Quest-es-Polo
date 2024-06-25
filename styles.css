@@ -5,7 +5,7 @@
 }
 
 .container-main {
-    background-image: linear-gradient(330deg, #0a333a 0, #0c323c 5%, #0e323d 10%, #11313f 15%, #153140 20%, #183041 25%, #1c2f41 30%, #202f42 35%, #242e41 40%, #282d41 45%, #2c2c40 50%, #302b3f 55%, #332a3d 60%, #36293c 65%, #38283a 70%, #3b2837 75%, #3d2735 80%, #3f2733 85%, #402630 90%, #41262d 95%, #41262b 100%);
+    width: 100vw;
     height: 100vh;
     padding-top: 100px;
 }
@@ -81,10 +81,18 @@ img {
     opacity: 0.8;
 }
 
+.correto{
+    background-image: none;
+    background-color: #049b48;
+}
+
+.incorreto{
+    background-image: none;
+    background-color: #a10101;
+}
+
 @media screen and (max-width: 998px) {
     .container-main {
-
-        background-image: linear-gradient(330deg, #0a333a 0, #0c323c 5%, #0e323d 10%, #11313f 15%, #153140 20%, #183041 25%, #1c2f41 30%, #202f42 35%, #242e41 40%, #282d41 45%, #2c2c40 50%, #302b3f 55%, #332a3d 60%, #36293c 65%, #38283a 70%, #3b2837 75%, #3d2735 80%, #3f2733 85%, #402630 90%, #41262d 95%, #41262b 100%);
         height: 100%;
         width: 100vw;
         padding-top: 100px;
@@ -162,5 +170,13 @@ img {
 
     .container-materia-1:active {
         opacity: 0.8;
+    }
+
+    .correto{
+        background-color: #049b48;
+    }
+    
+    .incorreto{
+        background-color: #a10101;
     }
 }

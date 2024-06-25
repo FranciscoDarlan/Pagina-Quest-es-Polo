@@ -33,7 +33,6 @@ function questoesPrimeirosSocorros() {
     window.location.href = "questionarioaph.html";
 }
 
-
 // vou criar uma variavel para saber em qual questão estamos ..
 let perguntaAtual = 0;
 
@@ -60,12 +59,26 @@ function displayNextQuestion() {
         if (event.correct) {
             newRespostas.dataset.correct = event.correct;
         }
-
         caixaPerguntas.appendChild(newRespostas);
+
+        newRespostas.addEventListener('click', selecionandoResposta)
     })
 }
 
+function selecionandoResposta(event) {
+    const respostaSelecionada = event.target;
+//preciso pegar as informaçõs do arquvo globais
+    if (respostaSelecionada.dataset.correct) {
+       document.body.classList.add('correto')
+    }else{
+        document.body.classList.add('incorreto')
+    }
+}
 
+function corrigindoQuestion() {
+    displayNextQuestion()
+}
+buttonNextQuestion.addEventListener('click', corrigindoQuestion)
 
 const questions = [
     {
