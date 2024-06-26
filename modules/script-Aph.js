@@ -178,7 +178,7 @@ const questionsAph = [
         ]
     },
     {
-        question: "Em se tratando de Primeiros Socorros, no atendimento a uma vítima de trauma com amputação, foi identificado uma hemorragia arterial ativa, com objetivo de cessá-la, qual a primeira consuta a ser adotada?",
+        question: "Em se tratando de Primeiros Socorros, no atendimento a uma vítima de trauma com amputação, foi identificado uma hemorragia arterial ativa, com objetivo de cessá-la, qual a primeira conduta a ser adotada?",
         answers: [
             { option: "Compressão direta na lesão", correct: false },
             { option: "Reforçar o curativo compressivo", correct: false },
@@ -192,7 +192,7 @@ const questionsAph = [
         answers: [
             { option: "Oferecer água para vítima", correct: true },
             { option: "Afastar do corpo da vítima quaisquer objetos que possam machucá-la", correct: false },
-            { option: "Jamais tentar introduzir mão ou qualquer objeto na boca da vítima", correct: false },
+            { option: "Jamais tentar introduzir a mão ou qualquer objeto na boca da vítima", correct: false },
             { option: "Usar EPI", correct: false },
             { option: "Proteger a cabeça", correct: false }
         ]
@@ -268,7 +268,7 @@ const questionsAph = [
         ]
     },
     {
-        question: "O DESMAIO (sincope) é uma perda súbita e breve da ____________  !",
+        question: "O DESMAIO (síncope) é uma perda súbita e breve da ____________  !",
         answers: [
             { option: "pressão arterial", correct: false },
             { option: "Força", correct: false },
