@@ -248,7 +248,7 @@ const questionsAph = [
         ]
     },
     {
-        question: "Quasi são os tipos de extricação e transporte para uma vítima de trauma?",
+        question: "Quais são os tipos de extricação e transporte para uma vítima de trauma?",
         answers: [
             { option: "Rolamento a 120° e 90°", correct: false },
             { option: "Rolamento a 120° e À cavaleira", correct: false },
@@ -268,7 +268,7 @@ const questionsAph = [
         ]
     },
     {
-        question: "O DESMAIO (sincope) é uma perda súbita e breve da ____________",
+        question: "O DESMAIO (sincope) é uma perda súbita e breve da ____________  !",
         answers: [
             { option: "pressão arterial", correct: false },
             { option: "Força", correct: false },
