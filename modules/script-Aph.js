@@ -148,7 +148,7 @@ const questionsAph = [
         ],
     },
     {
-        question: "Como se apresenta a queimadura de primeiro grua, quanto ao aspecto e sensibilidade na vítima:",
+        question: "Como se apresenta a queimadura de primeiro grau, quanto ao aspecto e sensibilidade na vítima:",
         answers: [
             { option: "Bolha e dor", correct: false },
             { option: "Vermelhidão e dor", correct: true },
@@ -161,7 +161,7 @@ const questionsAph = [
         question: "Qual a principal conduta a ser tomada na utilização do DEA (desfibrilador externo automático) para evitar acidentes durante o choque:",
         answers: [
             { option: "Secar a vítima", correct: false },
-            { option: "Colcoar corretamente as pás", correct: false },
+            { option: "Colocar corretamente as pás", correct: false },
             { option: "Não encostar na vítima durante o choque", correct: true },
             { option: "Observar se o tórax está com pêlos", correct: false },
             { option: "Tirar as Pilhas", correct: false }
