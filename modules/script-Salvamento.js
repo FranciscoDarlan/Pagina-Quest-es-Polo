@@ -155,7 +155,7 @@ const questionsAph = [
         ]
     },
     {
-        question: "Documento importante que precisar ser preenchido antes de entrar no espaço confinado?",
+        question: "Documento importante que precisa ser preenchido antes de entrar no espaço confinado?",
         answers: [
             { option: "EPT", correct: false },
             { option: "TEP", correct: false },
@@ -228,10 +228,10 @@ const questionsAph = [
         question: "São razões para elaboração de um plano de emergência, exceto:",
         answers: [
             { option: "Evita, confusões, erros e atropelos e a duplicação de atuações.", correct: false },
-            { option: "Os prováveis cenários de acidentes para os riscos identificados.", correct: true },
+            { option: "Os prováveis cenários de acidentes para os riscos identificados.", correct: false },
             { option: "Prevê e organiza antecipadamente o plano de abandono e contingência.", correct: false },
-            { option: "Permite otinas e procedimentos os quais poderão ser testados através de exercícios de simulação", correct: false },
-            { option: "Nenhuma das alternativas.", correct: false }
+            { option: "Permite rotinas e procedimentos os quais poderão ser testados através de exercícios de simulação.", correct: false },
+            { option: "Nenhuma das alternativas.", correct: true }
         ]
     },
 ];
