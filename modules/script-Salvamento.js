@@ -145,7 +145,7 @@ const questionsAph = [
         ],
     },
     {
-        question: "Quando flaamos de salvameno terrestre, destacamos 3 características principais que esperamos num socorrista, quais são?",
+        question: "Quando falamos de salvameno terrestre, destacamos 3 características principais que esperamos num socorrista, quais são?",
         answers: [
             { option: "Preparo técnico, curricular e psicológico.", correct: false },
             { option: "Preparo físico, muscular e psicológico.", correct: false },
@@ -165,7 +165,7 @@ const questionsAph = [
         ],
     },
     {
-        question: "São caracteristicas esperadas de um plano de emergência?",
+        question: "São características esperadas de um plano de emergência?",
         answers: [
             { option: "Simplicidade, Flexibilidade, Dificuldade, Adequação e Precisão.", correct: false },
             { option: "Simplicidade, Flexibilidade, Dinamismo, Adequação e Precisão.", correct: true },
@@ -175,7 +175,7 @@ const questionsAph = [
         ]
     },
     {
-        question: "tipo de heliponto?",
+        question: "Tipo de heliponto?",
         answers: [
             { option: "São quatro, Militar, Privado, Hospitalar e de Emergência.", correct: false },
             { option: "São cinco, Militar, Turítico, Privado, Hospitalar e de Emergência.", correct: false },
@@ -185,7 +185,7 @@ const questionsAph = [
         ],
     },
     {
-        question: "quantas classes de produtos prerigos existe?",
+        question: "Quantas classes de produtos perigos existe?",
         answers: [
             { option: "7", correct: false },
             { option: "8", correct: false },
