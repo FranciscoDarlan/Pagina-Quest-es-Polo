@@ -13,7 +13,7 @@ buttonNextQuestion.addEventListener('click', displayNextQuestion);
 
 const caixaDeInfomações = document.querySelector('.container-div1');
 function voltaPaginaInicial() {
-    window.location.href = "https://franciscodarlan.github.io/Site-BPC/";
+    window.location.href = "https://polocuricica.vercel.app/";
 }
 
 function questoesCombateAIncendio() {
