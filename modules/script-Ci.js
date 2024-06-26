@@ -138,13 +138,13 @@ function finishQuiz() {
 //coloquei esse nome para nao precisar mudar no codigo la em cima ...
 const questionsCi = [
     {
-        question: "Quais Elementos do Triângulo do Fogo?",
+        question: "Quais os componentes do Triângulo do Fogo?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "Sólido, Combustível e Comburente", correct: false },
+            { option: "Sólido, Líquido e Gasoso", correct: false },
+            { option: "Calor, Madeira  e Papel", correct: false },
+            { option: "classe A, Combustível e Comburente", correct: false },
+            { option: "Calor, Combustível e Comburente", correct: true }
         ],
     },
     {
@@ -158,23 +158,23 @@ const questionsCi = [
         ]
     },
     {
-        question: "Quais Elementos do Triângulo do Fogo?",
+        question: "Qual elemento é considerado o 4° Elemento do Triângulo do Fogo?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "Incêndio", correct: false },
+            { option: "Materias Sólidos", correct: false },
+            { option: "Ponto de Fulgor", correct: false },
+            { option: "Reação em cadeia", correct: true },
+            { option: "Calor", correct: false }
         ],
     },
     {
-        question: "Quais metodos de extinção do Fogo?",
+        question: "O que significa BPC?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "Bombeiro Polo Curicica", correct: false },
+            { option: "Bombeiro Preservação Civil", correct: false },
+            { option: "Bombeiro Profissional Civil", correct: true },
+            { option: "Bombeiro Polícia Civil", correct: false },
+            { option: "Bombeiro Primário Civil", correct: false }
         ]
     },
     {
@@ -188,53 +188,53 @@ const questionsCi = [
         ],
     },
     {
-        question: "Quais metodos de extinção do Fogo?",
+        question: "O que é um incêndio?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "É a propagação rápida e violenta do fogo, não estando ao controle do homem.", correct: true },
+            { option: "É a propagação do fogo, não estando ao controle do homem.", correct: false },
+            { option: "É a propagação rápida e violenta do fogo, estando ao controle do homem.", correct: false },
+            { option: "É a propagação Lenta do fogo, não estando ao controle do homem.", correct: false },
+            { option: "É a propagação Lenta do fogo, estando ao controle do homem.", correct: false }
         ]
     },
     {
-        question: "Quais Elementos do Triângulo do Fogo?",
+        question: "Quais os Principais gases presente na composição do GLP?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "CO2", correct: false },
+            { option: "GNV", correct: false },
+            { option: "Propano e Aerosol", correct: false },
+            { option: "Propano e Butano", correct: true },
+            { option: "O2", correct: false }
         ],
     },
     {
-        question: "Quais metodos de extinção do Fogo?",
+        question: "Qual a porcentagem líquida presente no GLP ?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "50%", correct: false },
+            { option: "5%", correct: false },
+            { option: "15%", correct: false },
+            { option: "85%", correct: true },
+            { option: "68%", correct: false }
         ]
     },
     {
-        question: "Quais Elementos do Triângulo do Fogo?",
+        question: "Qual o nome da peça acoplada ao botijão de GLP?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "Regulador de pressão", correct: true },
+            { option: "Regulação de precisão", correct: false },
+            { option: "Registro de Precisão", correct: false },
+            { option: "Válvula de Regulador", correct: false },
+            { option: "Reguador de Registro", correct: false }
         ],
     },
     {
-        question: "Quais metodos de extinção do Fogo?",
+        question: "Descrito em lei, quais os 3 tipos de bombeiros civis?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "Chefe, Mestre, Básico", correct: false },
+            { option: "Líder, Mestre, ajudante", correct: true },
+            { option: "Líder, Mestre, simples", correct: false },
+            { option: "Alto, Médio, pequeno", correct: false },
+            { option: "Líder, Mestre, Básico", correct: false }
         ]
     },
 ];
