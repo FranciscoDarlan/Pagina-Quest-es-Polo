@@ -148,13 +148,13 @@ const questionsCi = [
         ],
     },
     {
-        question: "Quais metodos de extinção do Fogo?",
+        question: "Quais métodos de extinção do Fogo?",
         answers: [
-            { option: "9", correct: false },
-            { option: "7", correct: true },
-            { option: "11", correct: false },
-            { option: "4", correct: false },
-            { option: "4", correct: false }
+            { option: "Abafante, Resfriação e Acionamento", correct: false },
+            { option: "retiramento, Isolante e Isolamento", correct: false },
+            { option: "Abafamento, Resfriamento e Isolamento", correct: true },
+            { option: "Abafamento, Resfriante e Isolação", correct: false },
+            { option: "Abafamento, Resfriamento e Isolante", correct: false }
         ]
     },
     {
@@ -178,13 +178,13 @@ const questionsCi = [
         ]
     },
     {
-        question: "Quais Elementos do Triângulo do Fogo?",
+        question: "Qual a lei que regulariza a profissão de Bombeiro Civil?",
         answers: [
-            { option: "3", correct: true },
-            { option: "2", correct: false },
-            { option: "4", correct: false },
-            { option: "5", correct: false },
-            { option: "6", correct: false }
+            { option: "Lei 14.608", correct: true },
+            { option: "Lei 7.355", correct: false },
+            { option: "Lei 11.901, 12/01/2009", correct: false },
+            { option: "Lei 135 código penal", correct: false },
+            { option: "Lei 15.608", correct: false }
         ],
     },
     {
@@ -231,10 +231,10 @@ const questionsCi = [
         question: "Descrito em lei, quais os 3 tipos de bombeiros civis?",
         answers: [
             { option: "Chefe, Mestre, Básico", correct: false },
-            { option: "Líder, Mestre, ajudante", correct: true },
+            { option: "Líder, Mestre, ajudante", correct: false },
             { option: "Líder, Mestre, simples", correct: false },
             { option: "Alto, Médio, pequeno", correct: false },
-            { option: "Líder, Mestre, Básico", correct: false }
+            { option: "Líder, Mestre, Básico", correct: true }
         ]
     },
 ];
