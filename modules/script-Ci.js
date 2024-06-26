@@ -143,7 +143,7 @@ const questionsCi = [
             { option: "Sólido, Combustível e Comburente", correct: false },
             { option: "Sólido, Líquido e Gasoso", correct: false },
             { option: "Calor, Madeira  e Papel", correct: false },
-            { option: "classe A, Combustível e Comburente", correct: false },
+            { option: "Classe A, Combustível e Comburente", correct: false },
             { option: "Calor, Combustível e Comburente", correct: true }
         ],
     },
@@ -151,7 +151,7 @@ const questionsCi = [
         question: "Quais métodos de extinção do Fogo?",
         answers: [
             { option: "Abafante, Resfriação e Acionamento", correct: false },
-            { option: "retiramento, Isolante e Isolamento", correct: false },
+            { option: "Retiramento, Isolante e Isolamento", correct: false },
             { option: "Abafamento, Resfriamento e Isolamento", correct: true },
             { option: "Abafamento, Resfriante e Isolação", correct: false },
             { option: "Abafamento, Resfriamento e Isolante", correct: false }
@@ -220,8 +220,8 @@ const questionsCi = [
     {
         question: "Qual o nome da peça acoplada ao botijão de GLP?",
         answers: [
-            { option: "Regulador de pressão", correct: true },
-            { option: "Regulação de precisão", correct: false },
+            { option: "Regulador de Pressão", correct: true },
+            { option: "Regulação de Precisão", correct: false },
             { option: "Registro de Precisão", correct: false },
             { option: "Válvula de Regulador", correct: false },
             { option: "Reguador de Registro", correct: false }
@@ -231,9 +231,9 @@ const questionsCi = [
         question: "Descrito em lei, quais os 3 tipos de bombeiros civis?",
         answers: [
             { option: "Chefe, Mestre, Básico", correct: false },
-            { option: "Líder, Mestre, ajudante", correct: false },
-            { option: "Líder, Mestre, simples", correct: false },
-            { option: "Alto, Médio, pequeno", correct: false },
+            { option: "Líder, Mestre, Ajudante", correct: false },
+            { option: "Líder, Mestre, Simples", correct: false },
+            { option: "Alto, Médio, Pequeno", correct: false },
             { option: "Líder, Mestre, Básico", correct: true }
         ]
     },
