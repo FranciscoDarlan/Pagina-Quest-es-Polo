@@ -190,7 +190,7 @@ const questionsAph = [
     {
         question: "Em uma vítima em crise convulsiva (ataque epilético), qual a condulta que o socorrista NÃO deve adotar:",
         answers: [
-            { option: "Oferecer aguá para vítima", correct: true },
+            { option: "Oferecer água para vítima", correct: true },
             { option: "Afastar do corpo da vítima quaisquer objetos que possam machucá-la", correct: false },
             { option: "Jamais tentar introduzir mão ou qualquer objeto na boca da vítima", correct: false },
             { option: "Usar EPI", correct: false },
