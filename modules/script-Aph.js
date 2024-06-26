@@ -198,13 +198,13 @@ const questionsAph = [
         ]
     },
     {
-        question: "Em uma vítima de PCR, com o socorrista sozinho quantas compressões?",
+        question: "Em uma vítima adulta com obstrução de vias aéreas (engasgo), qual a manobra de desobstrução adotamos:",
         answers: [
-            { option: "100 - 120", correct: true },
-            { option: "10 - 20", correct: false },
-            { option: "115 - 122", correct: false },
-            { option: "30 - 2", correct: false },
-            { option: "90 - 100", correct: false }
+            { option: "PCR", correct: false },
+            { option: "Heimlich", correct: true },
+            { option: "PLS", correct: false },
+            { option: "RCP", correct: false },
+            { option: "SBV", correct: false }
         ],
     },
     {
