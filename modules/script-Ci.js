@@ -180,9 +180,9 @@ const questionsCi = [
     {
         question: "Qual a lei que regulariza a profissão de Bombeiro Civil?",
         answers: [
-            { option: "Lei 14.608", correct: true },
+            { option: "Lei 14.608", correct: false },
             { option: "Lei 7.355", correct: false },
-            { option: "Lei 11.901, 12/01/2009", correct: false },
+            { option: "Lei 11.901, 12/01/2009", correct: true },
             { option: "Lei 135 código penal", correct: false },
             { option: "Lei 15.608", correct: false }
         ],
