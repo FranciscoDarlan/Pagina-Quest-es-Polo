@@ -22,13 +22,14 @@
     border-radius: 15px;
     cursor: pointer;
     border: none;
+    background-color: white;
 }
 
 .callback-home:hover {
     opacity: 0.8;
     transition: .4ss;
-    background-color: rgba(0, 0, 0, 0.171);
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .callback-home:active {
@@ -64,7 +65,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 80%;
     gap: 2vh;
     color: aliceblue;
     font-size: 4vh;
