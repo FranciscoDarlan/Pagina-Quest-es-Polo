@@ -138,23 +138,63 @@ function finishQuiz() {
 
 const questionsAph = [
     {
-        question: "Em uma vítima de PCR, com o socorrista sozinho quantas compressões?",
+        question: "De acordo com o novo protocolo de suporte básico de vida(SBV), durante uma parada cardiorespiratória, o número de compressões e ventilações no adulto são:",
         answers: [
-            { option: "100 - 120", correct: true },
+            { option: "100 - 120", correct: false },
             { option: "10 - 20", correct: false },
             { option: "115 - 122", correct: false },
-            { option: "30 - 2", correct: false },
+            { option: "30 - 2", correct: true },
             { option: "90 - 100", correct: false }
         ],
     },
     {
-        question: "Em uma vítima de Queimadura, podemos avaliar quantos tipos de queimadura?",
+        question: "Como se apresenta a queimadura de primeiro grua, quanto ao aspecto e sensibilidade na vítima:",
         answers: [
-            { option: "3", correct: false },
-            { option: "5", correct: true },
-            { option: "0", correct: false },
-            { option: "1", correct: false },
-            { option: "2", correct: false }
+            { option: "Bolha e dor", correct: false },
+            { option: "Vermelhidão e dor", correct: true },
+            { option: "Lesão e necrose (coloração preta)", correct: false },
+            { option: "Amarelo e dor", correct: false },
+            { option: "Nenhum aspecto", correct: false }
+        ]
+    },
+    {
+        question: "Qual a principal conduta a ser tomada na utilização do DEA (desfibrilador externo automático) para evitar acidentes durante o choque:",
+        answers: [
+            { option: "Secar a vítima", correct: false },
+            { option: "Colcoar corretamente as pás", correct: false },
+            { option: "Não encostar na vítima durante o choque", correct: true },
+            { option: "Observar se o tórax está com pêlos", correct: false },
+            { option: "Tirar as Pilhas", correct: false }
+        ],
+    },
+    {
+        question: "Durante a abordagem a uma vítima de trauma, uma conduta que visa manter a integridade da vítima é:",
+        answers: [
+            { option: "Colocar na posição lateral de segurança.", correct: false },
+            { option: "Abrir as vias aéreas", correct: false },
+            { option: "Abrir as vias aéreas e estabilizar a coluna cervical", correct: true },
+            { option: "Administrar oxigênio", correct: false },
+            { option: "Colocar a Vítima sentada", correct: false }
+        ]
+    },
+    {
+        question: "Em se tratando de Primeiros Socorros, no atendimento a uma vítima de trauma com amputação, foi identificado uma hemorragia arterial ativa, com objetivo de cessá-la, qual a primeira consuta a ser adotada?",
+        answers: [
+            { option: "Compressão direta na lesão", correct: false },
+            { option: "Reforçar o curativo compressivo", correct: false },
+            { option: "aplicar torniquete", correct: true },
+            { option: "aplicar gelo na lesão", correct: false },
+            { option: "Mostrar a ferida para vítima", correct: false }
+        ],
+    },
+    {
+        question: "Em uma vítima em crise convulsiva (ataque epilético), qual a condulta que o socorrista NÃO deve adotar:",
+        answers: [
+            { option: "Oferecer aguá para vítima", correct: true },
+            { option: "Afastar do corpo da vítima quaisquer objetos que possam machucá-la", correct: false },
+            { option: "Jamais tentar introduzir mão ou qualquer objeto na boca da vítima", correct: false },
+            { option: "Usar EPI", correct: false },
+            { option: "Proteger a cabeça", correct: false }
         ]
     },
     {
@@ -168,73 +208,73 @@ const questionsAph = [
         ],
     },
     {
-        question: "Em uma vítima de Queimadura, podemos avaliar quantos tipos de queimadura?",
+        question: "Como se classificam as fraturas?",
         answers: [
-            { option: "3", correct: false },
-            { option: "5", correct: true },
-            { option: "0", correct: false },
-            { option: "1", correct: false },
-            { option: "2", correct: false }
+            { option: "Interna e externa", correct: false },
+            { option: "Fechada e Aberta (exposta)", correct: true },
+            { option: "Leve e grave", correct: false },
+            { option: "1°, 2°, 3° graus", correct: false },
+            { option: "Gravíssima", correct: false }
         ]
     },
     {
-        question: "Em uma vítima de PCR, com o socorrista sozinho quantas compressões?",
+        question: "Ao presencar uma parada cardiorrespiratória (PCR), não dispondo de nenhum dispositivo de barreira ventiladores, aplica-se a seguinte condta:",
         answers: [
-            { option: "100 - 120", correct: true },
-            { option: "10 - 20", correct: false },
-            { option: "115 - 122", correct: false },
-            { option: "30 - 2", correct: false },
-            { option: "90 - 100", correct: false }
+            { option: "Realiza 30 compressões x 2 ventilações", correct: false },
+            { option: "Realiza 15 compressões x 2 ventilações", correct: false },
+            { option: "Realiza 30 compressões x 2 ventilações com ambú", correct: false },
+            { option: "Realiza 15 compressões x 2 ventilações", correct: false },
+            { option: "Realiza 100 a 120 compressões por minuto", correct: true }
         ],
     },
     {
-        question: "Em uma vítima de Queimadura, podemos avaliar quantos tipos de queimadura?",
+        question: "A relação entre tapotagens (tapas nas costas), e compressões no tórax em uma vítima lactente (bebê), que apresenta uma obstrução de via aéreas (engasgo) são?",
         answers: [
-            { option: "3", correct: false },
-            { option: "5", correct: true },
-            { option: "0", correct: false },
-            { option: "1", correct: false },
-            { option: "2", correct: false }
+            { option: "5 tapotagens x 0 compressões", correct: false },
+            { option: "30 tapotagens x 2 compressões", correct: false },
+            { option: "5 tapotagens x 5 compressões", correct: true },
+            { option: "3 tapotagens x 5 compressões", correct: false },
+            { option: "5 tapotagens x 3 compressões", correct: false }
         ]
     },
     {
-        question: "Em uma vítima de PCR, com o socorrista sozinho quantas compressões?",
+        question: "Em relação a obstrução das vias aéreas por corpo estranho (OVACE), existem basicamente 2 tipos, quais são?",
         answers: [
-            { option: "100 - 120", correct: true },
-            { option: "10 - 20", correct: false },
-            { option: "115 - 122", correct: false },
-            { option: "30 - 2", correct: false },
-            { option: "90 - 100", correct: false }
-        ],
-    },
-    {
-        question: "Em uma vítima de Queimadura, podemos avaliar quantos tipos de queimadura?",
-        answers: [
-            { option: "3", correct: false },
-            { option: "5", correct: true },
-            { option: "0", correct: false },
-            { option: "1", correct: false },
-            { option: "2", correct: false }
+            { option: "Fechada e aberta", correct: false },
+            { option: "Primaria e secundária", correct: false },
+            { option: "Automática e semi automática", correct: false },
+            { option: "Engasgo 1 e engasgo 2", correct: false },
+            { option: "Incompleta e completa", correct: true }
         ]
     },
     {
-        question: "Em uma vítima de PCR, com o socorrista sozinho quantas compressões?",
+        question: "Quasi são os tipos de extricação e transporte para uma vítima de trauma?",
         answers: [
-            { option: "100 - 120", correct: true },
-            { option: "10 - 20", correct: false },
-            { option: "115 - 122", correct: false },
-            { option: "30 - 2", correct: false },
-            { option: "90 - 100", correct: false }
-        ],
+            { option: "Rolamento a 120° e 90°", correct: false },
+            { option: "Rolamento a 120° e À cavaleira", correct: false },
+            { option: "Rolamento a 90° e 120°", correct: false },
+            { option: "Rolamento a 180° e À cavaleira", correct: true },
+            { option: "Rolamento a 120° e 145°", correct: false }
+        ]
     },
     {
-        question: "1° coisa a se fazer em uma situação de Emergencia?",
+        question: "Qual a definição de APH?",
         answers: [
-            { option: "correr", correct: false },
-            { option: "avaliar a cena", correct: true },
-            { option: "socorrer", correct: false },
-            { option: "separar os equipamentos", correct: false },
-            { option: "desmaiar", correct: false }
+            { option: "Assistência Pré Hospitalar", correct: false },
+            { option: "Atendimento Pré Hospitalar", correct: true },
+            { option: "Avaliação Pré Hospitalar", correct: false },
+            { option: "Abordagem Pré Hospitalar", correct: false },
+            { option: "Agência Pré Hospitalar", correct: false }
+        ]
+    },
+    {
+        question: "O DESMAIO (sincope) é uma perda súbita e breve da ____________",
+        answers: [
+            { option: "pressão arterial", correct: false },
+            { option: "Força", correct: false },
+            { option: "Respiração", correct: false },
+            { option: "Reflexo", correct: false },
+            { option: "Consciência", correct: true }
         ]
     },
 ];
